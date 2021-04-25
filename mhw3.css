@@ -1,0 +1,60 @@
+/*-----------------------------------------------------------
+						Page Layout
+-----------------------------------------------------------*/
+Header {
+	height: 160px;
+	background-Color: #05418b;
+	background-Image: none;
+}
+Header::before{
+	content: none;
+}
+#Page_Info {
+	height: calc(100% - 60px);
+	padding: 0px;
+	justify-content: Center;
+	align-items: Center;
+}
+section {
+	position: relative;
+	Margin-Top: 0px;
+	min-height: calc(100vh - 320px);
+}
+#info{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 0px 0px 20px;
+}
+input, select {
+	font-size: 1em;
+}
+/*-----------------------------------------------------------
+						Courses
+-----------------------------------------------------------*/
+.courses {
+	padding-bottom: 30px;
+	border-top: 1px solid lightgrey;
+}
+.courses_element{
+	width: calc(100% - 2px);
+	margin: 10px 0px;
+	border: 1px solid lightgrey;
+}
+.courses_element h1{
+	font-size: 1.2em;
+	background-color: lightgrey;
+	text-align: center;
+}
+.courses_element .details{
+	text-align: left;
+	position: relative;
+	right: 0px;
+	background-Color: white;
+	width: calc(100% - 40px);
+	padding: 0px 20px;
+	align-items: flex-start;
+}
+.courses_element .hidden{
+	display: none;
+}
